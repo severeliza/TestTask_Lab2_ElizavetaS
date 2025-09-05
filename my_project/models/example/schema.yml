@@ -1,0 +1,11 @@
+
+version: 2
+
+models:
+  - name: crew_per_craft
+    description: "Количество людей на каждом космическом корабле"
+    columns:
+      - name: craft
+        description: "Название корабля"
+      - name: crew_size
+        description: "Количество людей на корабле"
