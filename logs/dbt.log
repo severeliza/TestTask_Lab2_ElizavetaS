@@ -1,0 +1,89 @@
+[0m18:24:06.597505 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DD35DE270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DD3550690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DD4DC8050>]}
+
+
+============================== 18:24:06.639491 | 14e1f507-6511-4812-a5a5-67ba72aa0c12 ==============================
+[0m18:24:06.639491 [info ] [MainThread]: Running with dbt=1.6.9
+[0m18:24:06.640251 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init my_project', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\lizas\\.dbt', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])'}
+[0m18:24:06.641147 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/lizas/.dbt')}
+[0m18:24:06.642591 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m18:24:06.644480 [debug] [MainThread]: Starter project path: C:\git\TestTask_Lab2_ElizavetaS\dbt_venv\Lib\site-packages\dbt\include\starter_project
+[0m18:24:06.676368 [info ] [MainThread]: 
+Your new dbt project "my_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:24:06.677121 [info ] [MainThread]: Setting up your profile.
+[0m18:32:53.131948 [info ] [MainThread]: No sample profile found for clickhouse.
+[0m18:32:53.133214 [debug] [MainThread]: Command `dbt init` succeeded at 18:32:53.132968 after 526.63 seconds
+[0m18:32:53.133478 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DCFEDA520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DD3BBE690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DD4CC56A0>]}
+[0m18:32:53.133749 [debug] [MainThread]: Flushing usage events
+[0m18:34:33.365272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231C7EAE270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231C7E1C690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231CB708050>]}
+
+
+============================== 18:34:33.370186 | e9a0d39a-9c74-45c9-9641-341759af58b1 ==============================
+[0m18:34:33.370186 [info ] [MainThread]: Running with dbt=1.6.9
+[0m18:34:33.371319 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'printer_width': '80', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'profiles_dir': 'C:\\Users\\lizas\\.dbt'}
+[0m18:34:33.371804 [info ] [MainThread]: dbt version: 1.6.9
+[0m18:34:33.372297 [info ] [MainThread]: python version: 3.13.7
+[0m18:34:33.372722 [info ] [MainThread]: python path: C:\git\TestTask_Lab2_ElizavetaS\dbt_venv\Scripts\python.exe
+[0m18:34:33.373133 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m18:34:33.415149 [info ] [MainThread]: Using profiles dir at C:\Users\lizas\.dbt
+[0m18:34:33.415841 [info ] [MainThread]: Using profiles.yml file at C:\Users\lizas\.dbt\profiles.yml
+[0m18:34:33.416433 [info ] [MainThread]: Using dbt_project.yml file at C:\git\TestTask_Lab2_ElizavetaS\dbt_project.yml
+[0m18:34:33.417857 [info ] [MainThread]: adapter type: clickhouse
+[0m18:34:33.418477 [info ] [MainThread]: adapter version: 1.6.0
+[0m18:34:33.419076 [info ] [MainThread]: Configuration:
+[0m18:34:33.419497 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:34:33.419890 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m18:34:33.420293 [info ] [MainThread]: Required dependencies:
+[0m18:34:33.420698 [debug] [MainThread]: Executing "git --help"
+[0m18:34:33.478787 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:34:33.479150 [debug] [MainThread]: STDERR: "b''"
+[0m18:34:33.479461 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:34:33.479949 [info ] [MainThread]: Connection:
+[0m18:34:33.480972 [info ] [MainThread]:   driver: None
+[0m18:34:33.481368 [info ] [MainThread]:   host: localhost
+[0m18:34:33.481782 [info ] [MainThread]:   port: 8123
+[0m18:34:33.482215 [info ] [MainThread]:   user: default
+[0m18:34:33.482694 [info ] [MainThread]:   schema: default
+[0m18:34:33.483065 [info ] [MainThread]:   retries: 1
+[0m18:34:33.483597 [info ] [MainThread]:   database_engine: None
+[0m18:34:33.484085 [info ] [MainThread]:   cluster_mode: False
+[0m18:34:33.484562 [info ] [MainThread]:   secure: False
+[0m18:34:33.485028 [info ] [MainThread]:   verify: True
+[0m18:34:33.485422 [info ] [MainThread]:   connect_timeout: 10
+[0m18:34:33.485877 [info ] [MainThread]:   send_receive_timeout: 300
+[0m18:34:33.486420 [info ] [MainThread]:   sync_request_timeout: 5
+[0m18:34:33.486902 [info ] [MainThread]:   compress_block_size: 1048576
+[0m18:34:33.487345 [info ] [MainThread]:   compression: 
+[0m18:34:33.487767 [info ] [MainThread]:   check_exchange: True
+[0m18:34:33.488182 [info ] [MainThread]:   custom_settings: None
+[0m18:34:33.488589 [info ] [MainThread]:   use_lw_deletes: False
+[0m18:34:33.489072 [info ] [MainThread]: Registered adapter: clickhouse=1.6.0
+[0m18:34:33.489673 [debug] [MainThread]: Acquiring new clickhouse connection 'debug'
+[0m18:34:33.489909 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:34:35.942233 [debug] [MainThread]: dbt_clickhouse adapter: On debug: select 1 as id...
+[0m18:34:35.991576 [debug] [MainThread]: dbt_clickhouse adapter: SQL status: OK in 0.05 seconds
+[0m18:34:35.992471 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:34:35.992946 [info ] [MainThread]: [31m1 check failed:[0m
+[0m18:34:35.993849 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\git\TestTask_Lab2_ElizavetaS\dbt_project.yml> not found
+
+[0m18:34:35.994377 [debug] [MainThread]: Command `dbt debug` failed at 18:34:35.994253 after 2.76 seconds
+[0m18:34:35.994642 [debug] [MainThread]: Connection 'debug' was left open.
+[0m18:34:35.994867 [debug] [MainThread]: On debug: Close
+[0m18:34:35.995214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231CB8B69E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231CB965250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231CB9746B0>]}
+[0m18:34:35.995531 [debug] [MainThread]: Flushing usage events
